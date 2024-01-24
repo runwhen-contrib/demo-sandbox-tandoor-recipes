@@ -35,5 +35,5 @@ spec:
         pathType: Prefix
   tls:
   - hosts:
-   - recipes.sandbox.runwhen.com
-   secretName: recipes-local-tls
+    - recipes.sandbox.runwhen.com
+    secretName: recipes-local-tls
