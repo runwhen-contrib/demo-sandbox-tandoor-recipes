@@ -11,11 +11,11 @@ spec:
     tier: frontend
     environment: production
   ports:
-  - port: 80
-    targetPort: http
-    name: http
-    protocol: TCP
-  - port: 8080
-    targetPort: gunicorn
-    name: gunicorn
-    protocol: TCP
+    - port: 80
+      targetPort: http
+      name: http
+      protocol: TCP
+    - port: 8080
+      targetPort: gunicorn
+      name: gunicorn
+      protocol: TCP
