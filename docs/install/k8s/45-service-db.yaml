@@ -7,10 +7,10 @@ metadata:
   name: recipes-postgresql
 spec:
   ports:
-  - name: postgresql
-    port: 5432
-    protocol: TCP
-    targetPort: postgresql
+    - name: postgresql
+      port: 5432
+      protocol: TCP
+      targetPort: postgresql
   selector:
     app: recipes
     tier: database
