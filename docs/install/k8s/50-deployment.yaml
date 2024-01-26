@@ -97,7 +97,7 @@ spec:
               name: gunicorn
           resources:
             requests:
-              cpu: 125m
+              cpu: 20m
               memory: 64Mi
             limits:
               cpu: 125m
