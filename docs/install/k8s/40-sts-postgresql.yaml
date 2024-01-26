@@ -82,6 +82,9 @@ spec:
             requests:
               cpu: 125m
               memory: 256Mi
+            limits:
+              cpu: 125m
+              memory: 256Mi
           securityContext:
             runAsUser: 1001
           terminationMessagePath: /dev/termination-log
@@ -104,6 +107,9 @@ spec:
           name: init-chmod-data
           resources:
             requests:
+              cpu: 125m
+              memory: 256Mi
+            limits:
               cpu: 125m
               memory: 256Mi
           securityContext:
