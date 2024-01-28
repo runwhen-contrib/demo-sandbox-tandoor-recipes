@@ -97,8 +97,8 @@ spec:
               name: gunicorn
           resources:
             requests:
-              cpu: 125m
-              memory: 64Mi
+              cpu: 20m
+              memory: 50Mi
             limits:
               cpu: 125m
               memory: 64Mi
@@ -144,8 +144,8 @@ spec:
             periodSeconds: 30
           resources:
             requests:
-              cpu: 125m
-              memory: 64Mi
+              cpu: 20m
+              memory: 50Mi
             limits:
               cpu: 125m
               memory: 64Mi
